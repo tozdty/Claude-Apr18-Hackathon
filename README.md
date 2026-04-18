@@ -4,11 +4,11 @@
 
 > A personal health agent that watches, decides, and acts — without you ever opening an app.
 
-## What is Pulse?
+## What is NutriBytes?
 
-Pulse is a proactive AI health agent built for high-performance people whose body is their instrument. It maintains a living model of your health and your day, generates a rolling 12-hour forecast, and intervenes through whatever channel fits the moment — a phone call when you're driving, a text when you're in a meeting, a Slack DM when you're decompressing, a haptic tap when you're on a plane.
+NutriBytes is a proactive AI health agent built for high-performance people whose body is their instrument. It maintains a living model of your health and your day, generates a rolling 12-hour forecast, and intervenes through whatever channel fits the moment — a phone call when you're driving, a text when you're in a meeting, a Slack DM when you're decompressing, a haptic tap when you're on a plane.
 
-You never open Pulse. Pulse comes to you.
+You never open NutriBytes. NutriBytes comes to you.
 
 ---
 
@@ -27,7 +27,7 @@ Reads silently from tools already in your life:
 - iMessage patterns — sentiment signals (with permission)
 
 ### 🗣 The Voice (Multi-Channel Presence)
-Pulse picks the right channel for the moment:
+NutriBytes picks the right channel for the moment:
 - **Phone call** — driving, walking, 20 min before a live hit
 - **SMS** — in a meeting, single-sentence interventions
 - **Email** — morning briefings, travel game plans
@@ -37,7 +37,7 @@ Pulse picks the right channel for the moment:
 - **Dashboard** — full picture, at your desk
 
 ### 🤝 The Hands (Action Layer)
-Pulse doesn't just advise — it executes:
+NutriBytes doesn't just advise — it executes:
 - Orders food through your existing Uber Eats / DoorDash account
 - Texts your assistant or producer on your behalf
 - Blocks or reschedules calendar events
