@@ -1,0 +1,24 @@
+{
+  "updated_at": "2025-04-18T14:40:00-06:00",
+  "sleep_hours": 4.2,
+  "hrv": 19,
+  "crash_risk_time": "15:30",
+  "crash_risk_level": "high",
+  "hydration_status": "critical",
+  "energy_trajectory": "declining",
+  "next_meal_window": "14:15–14:30",
+  "key_events": [
+    "14:40 — Uber to Colorado State Capitol",
+    "15:00 — Live broadcast",
+    "15:30 — Post-broadcast crash window",
+    "19:00 — Dinner",
+    "23:15 — Red-eye home"
+  ],
+  "recommended_actions": [
+    "Tell Jess to set out bananas and almonds in greenroom B",
+    "Block 15:30–15:50 for protein + hydration window",
+    "No caffeine after 14:00 — red-eye at 23:15",
+    "200-cal snack before broadcast"
+  ],
+  "voice_call_brief": "20 minutes out. HRV's still low, you're running on adrenaline not fuel. The greenroom has options — want me to tell Jess to set out bananas and almonds in greenroom B?"
+}
