@@ -1,0 +1,150 @@
+{
+  "user": {
+    "name": "Maya Chen",
+    "age": 34,
+    "role": "National Correspondent, CBS News",
+    "location": "The Maven Hotel, Denver, CO",
+    "date": "2025-04-18"
+  },
+  "biometrics_at_6am": {
+    "hrv_ms": 19,
+    "hrv_status": "critical",
+    "resting_hr_bpm": 78,
+    "hr_status": "elevated",
+    "spo2_pct": 94,
+    "altitude_effect": true,
+    "dehydration_pct_body_weight": -1.4,
+    "dehydration_status": "critical"
+  },
+  "sleep": {
+    "total_hours": 4.2,
+    "deep_sleep_min": 38,
+    "rem_sleep_min": 22,
+    "rolling_7day_debt_hours": -9.3,
+    "flight": "Red-eye LAX → DEN, landed 5:38am"
+  },
+  "nutrition": {
+    "calories_last_18h": 1040,
+    "status": "under-fueled",
+    "blood_sugar_dip_projected_at": "10:30am"
+  },
+  "energy_curve": [
+    { "time": "06:00", "score": 35, "label": "Post–red-eye fog", "status": "critical" },
+    { "time": "08:00", "score": 48, "label": "Nap helped", "status": "low" },
+    { "time": "10:00", "score": 44, "label": "Fading — needs food", "status": "low" },
+    { "time": "12:00", "score": 38, "label": "Circadian trough + calorie deficit", "status": "critical" },
+    { "time": "14:00", "score": 55, "label": "Pre-broadcast adrenaline (not real energy)", "status": "medium" },
+    { "time": "16:00", "score": 28, "label": "Post-broadcast crash — day's lowest", "status": "critical" },
+    { "time": "18:00", "score": 33, "label": "Partial rebound", "status": "critical" }
+  ],
+  "crash_line": 35,
+  "flagged_moments": [
+    {
+      "id": 1,
+      "time": "06:00",
+      "label": "Sleep debt",
+      "severity": "high",
+      "detail": "9.3h rolling deficit. Cannot recover today — manage around it."
+    },
+    {
+      "id": 2,
+      "time": "06:00",
+      "label": "Dehydration + altitude",
+      "severity": "high",
+      "detail": "Denver at 5,280ft. SpO₂ 94%. 60%+ headache risk without intervention."
+    },
+    {
+      "id": 3,
+      "time": "10:30",
+      "label": "Blood sugar dip",
+      "severity": "medium",
+      "detail": "Only 1,040 kcal in 18h. Cognitive fog layering on sleep debt."
+    },
+    {
+      "id": 4,
+      "time": "14:30",
+      "label": "Pre-broadcast cortisol spike",
+      "severity": "medium",
+      "detail": "Adrenaline masking fatigue. Energy reads 55 but HRV says tank is empty."
+    },
+    {
+      "id": 5,
+      "time": "15:30",
+      "label": "Adrenaline crash",
+      "severity": "high",
+      "detail": "Post-broadcast drop to 28. Danger zone. Caffeine here would wreck the red-eye."
+    },
+    {
+      "id": 6,
+      "time": "18:00",
+      "label": "False second-wind trap",
+      "severity": "medium",
+      "detail": "Energy reads 33 but caffeine still metabolically active. More coffee = 2h sleep on red-eye."
+    }
+  ],
+  "top_interventions": [
+    {
+      "id": 1,
+      "label": "75-min nap at hotel check-in",
+      "detail": "One full sleep cycle. +12 energy points projected.",
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "label": "40oz water by noon + electrolytes at 11am and 2pm",
+      "detail": "60% headache risk reduction.",
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "label": "Timed fuel: 400 kcal by 11am, 200 kcal snack at 2:15pm, no caffeine after 2pm",
+      "detail": "Holds energy above crash line through broadcast.",
+      "priority": 3
+    }
+  ],
+  "pulse_activity_log": [
+    {
+      "time": "06:12",
+      "beat": 1,
+      "channel": "Apple Watch haptic",
+      "message": "Slept 4h 12m. Crash risk at 2:30pm. Prehydrating now.",
+      "action": "Electrolyte packets added to Instacart, delivery to The Maven Hotel by 9am."
+    },
+    {
+      "time": "09:00",
+      "beat": 2,
+      "channel": "Gmail briefing",
+      "message": "Pulse brief: Today's game plan — on-air at 3, red-eye tonight.",
+      "action": "No automated action — planning beat."
+    },
+    {
+      "time": "14:40",
+      "beat": 3,
+      "channel": "Phone call via CarPlay",
+      "message": "HRV's still low, you're running on adrenaline not fuel. Want me to tell Jess to set out bananas and almonds in greenroom B?",
+      "action": "SMS to Jess fired. Google Calendar blocked 3:30–3:50pm: Protein + hydration window."
+    },
+    {
+      "time": "17:15",
+      "beat": 4,
+      "channel": "Slack DM",
+      "message": "Filed. Nice work. Ordered salmon bowl from Modmarket — 14 minutes, meeting you at The Maven.",
+      "action": "DoorDash confirmation email sent to Maya's inbox."
+    },
+    {
+      "time": "22:45",
+      "beat": 5,
+      "channel": "Apple Watch haptic",
+      "message": "Skip the second coffee. Sleep mode on when you land. Tomorrow's forecast is set.",
+      "action": "Apple Watch sleep mode enabled. Alarm set for 7:30am."
+    }
+  ],
+  "calendar": [
+    { "time": "08:30", "event": "Editorial call" },
+    { "time": "10:00", "event": "Script writing" },
+    { "time": "12:00", "event": "Hair and makeup" },
+    { "time": "15:00", "event": "Live broadcast — Colorado State Capitol", "high_stakes": true },
+    { "time": "19:00", "event": "Dinner" },
+    { "time": "23:15", "event": "Red-eye home" }
+  ]
+}
