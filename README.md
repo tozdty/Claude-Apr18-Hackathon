@@ -6,7 +6,7 @@
 
 ## What is NutriBytes?
 
-NutriBytes is a proactive AI health agent built for high-performance people whose body is their instrument. It maintains a living model of your health and your day, generates a rolling 12-hour forecast, and intervenes through whatever channel fits the moment — a phone call when you're driving, a text when you're in a meeting, a Slack DM when you're decompressing, a haptic tap when you're on a plane.
+NutriBytes is a proactive AI health agent built for everyone whose body is their instrument. It maintains a living model of your health and your day, generates a rolling 12-hour forecast, and intervenes through whatever channel fits the moment — a phone call when you're driving, a text when you're in a meeting, a Slack DM when you're decompressing, a haptic tap when you're on a plane.
 
 You never open NutriBytes. NutriBytes comes to you.
 
